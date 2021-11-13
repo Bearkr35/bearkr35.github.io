@@ -1,0 +1,125 @@
+h1{
+        background:white;
+        text-align: right;
+        padding: 40px 10px 0;
+        margin:0;
+        color:black;
+}
+       h1:active{
+       color:yellow;
+        }
+       
+      
+      .power{
+        padding:1px 1px;
+        background: red;
+        color: white;
+        font-weight:bold;
+        border: 4px solid black;
+        border-radius:5px;
+        
+      }
+      .normal{
+        background:white;
+        text-align: right;
+        padding: 40px 10px 0;
+        margin:0;
+        color:black;
+      }
+      body{
+        margin:0;
+      }
+      li{
+        margin: 10px 0px 0px 0px;
+      }
+      h3{
+        border: 1px solid grey;
+        margin:15px 5px;
+        border-radius:5px;
+        padding:4px 6px;
+        box-shadow:0 4px 4px gray;
+      }
+      .menu{
+        width:100%;
+      }
+      footer{
+        text-align:center;
+        color: gray;
+        font-size: 8px;
+        
+      }
+      button{
+        padding:3px 20px;
+        border-radius:5px;
+        border:1px solid grey;
+        box-shadow: 0 0 10px 0px grey;
+      }
+      button:hover{
+        box-shadow:none;
+      }
+     div.info table tbody tr:nth-child(odd) {
+        color:green;
+      }
+      button:active{
+        background:grey;
+      }
+      .menu td{
+        text-align:center;
+        max-width:70px;
+        
+      }
+      th{
+        background:grey;
+        color:white;
+        min-width:150px;
+      }
+       
+     div.info table tbody tr:nth-child(odd) {
+        color:green;
+      }
+       
+     div.info table tbody tr:last-child {
+        background:saddlebrown;
+      }
+      
+      .info{
+        margin:0 20px;
+        font-size:17;
+      }
+      .info_about{
+        margin:0 20px;
+        font-size:17;
+      }
+      .info_attack{
+        margin:0 20px;
+        font-size:17;
+      }
+       div.info p:active{
+        font-weight: bold;
+      }
+      div.info p:hover {
+        text-decoration: underline;
+}
+      div.info ul li:active{
+        font-weight: bold;
+      }
+      div.info ul li:hover {
+        text-decoration: underline;
+}
+      .one_ant{
+        text-align:right;
+      }
+      .ant_image{
+        width:350px;
+      }
+      
+      .main-headers{
+        background: url('ant.jpg');
+        border: 2px  dotted blue;
+        height:310px;
+        box-shadow:0 0 30px black;
+        text-align:right;
+      }
+      .old_ants{
+        margin:0 0 0 15px;
+      }

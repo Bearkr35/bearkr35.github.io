@@ -2,14 +2,14 @@
   <head>
     <title>🐜Сайт о муравьях</title>
     <link rel="stylesheet" href="style.css" />
-    <script type='text/javascript'  src="javascript.js"></script>
+    <script type="text/javascript" src="javascript.js"></script>
     
       
     
   </head>
   <body>
     <div class="main-headers">
-      <h1 onClick='powerClick(this)'>Сайт про муравьёв</h1>
+      <h1 >Сайт про муравьёв</h1>
     </div>
     <div>
       <nav>
@@ -25,13 +25,13 @@
     </nav>
      </div>
 
-    <div class="one_ant"> 
-      <img class="ant_image" src="oneant.jpg"/>
+    <div class="one_ant" > 
+      <img onClick='changeOpacity(this)'  class="ant_image" src="oneant.jpg"/>
     </div>
     <hr/>
      
-    <h3>Информация про муравьёв</h3>
-    <div class='info'>
+    <h3 onClick='Display()' class='interactive'>Информация про муравьёв</h3>
+    <div class='info' style='display:none;' id='1' >
       <table border="1">
         <thead>
           <tr>
@@ -56,8 +56,8 @@
       </table>
 
     </div>
-    <h3>Умения муравьёв</h3>
-    <div class='info'>
+    <h3 >Умения муравьёв</h3>
+    <div class='info' >
       <ul type="square">
         <li>Муравьи очень умные</li>
         <li>Муравьи строят муравейники в которых живут.</li>
@@ -70,6 +70,7 @@
     
     <footer>
       <a href="about.html">Черников Михаил 2021 г.</a>
+      
     </footer>
   </body>
 </html>
